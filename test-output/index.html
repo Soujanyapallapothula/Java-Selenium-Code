@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_">
+              <span class="suite-name border-passed">My Test Automation HubSpot Sanity test </span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-My_Test_Automation_HubSpot_Sanity_test_">
+                    <span>C:\Users\Giya Krish\eclipse-workspace4\Selenium2020\src\main\testResources\testRunners\testng_sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-My_Test_Automation_HubSpot_Sanity_test_">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-My_Test_Automation_HubSpot_Sanity_test_">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-My_Test_Automation_HubSpot_Sanity_test_">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-My_Test_Automation_HubSpot_Sanity_test_">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-My_Test_Automation_HubSpot_Sanity_test_">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-My_Test_Automation_HubSpot_Sanity_test_">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_" class="hide-methods passed suite-My_Test_Automation_HubSpot_Sanity_test_"> (hide)</a> <!-- hide-methods passed suite-My_Test_Automation_HubSpot_Sanity_test_ -->
+                      <a href="#" panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_" class="show-methods passed suite-My_Test_Automation_HubSpot_Sanity_test_"> (show)</a> <!-- show-methods passed suite-My_Test_Automation_HubSpot_Sanity_test_ -->
+                    </span>
+                    <div class="method-list-content passed suite-My_Test_Automation_HubSpot_Sanity_test_">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_" title="testNgBasics.annotationEx" hash-for-method="checkLinkDisplayedTest">checkLinkDisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_" title="testNgBasics.annotationEx" hash-for-method="getTitleTest">getTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_" title="testNgBasics.DisableTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_" title="testNgBasics.annotationEx" hash-for-method="productAvailTest">productAvailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-My_Test_Automation_HubSpot_Sanity_test_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-My_Test_Automation_HubSpot_Sanity_test_" class="panel My_Test_Automation_HubSpot_Sanity_test_">
+          <div class="suite-My_Test_Automation_HubSpot_Sanity_test_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgBasics.annotationEx</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLinkDisplayedTest">
+                  </a> <!-- checkLinkDisplayedTest -->
+                  <span class="method-name">checkLinkDisplayedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitleTest">
+                  </a> <!-- getTitleTest -->
+                  <span class="method-name">getTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productAvailTest">
+                  </a> <!-- productAvailTest -->
+                  <span class="method-name">productAvailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Automation_HubSpot_Sanity_test_-class-passed -->
+          <div class="suite-My_Test_Automation_HubSpot_Sanity_test_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgBasics.DisableTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-My_Test_Automation_HubSpot_Sanity_test_-class-passed -->
+        </div> <!-- panel My_Test_Automation_HubSpot_Sanity_test_ -->
+        <div panel-name="test-xml-My_Test_Automation_HubSpot_Sanity_test_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Giya Krish\eclipse-workspace4\Selenium2020\src\main\testResources\testRunners\testng_sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;My Test Automation HubSpot Sanity test &quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.freshworks.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HubSpot Sanity test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNgBasics.annotationEx&quot;/&gt;
+      &lt;class name=&quot;testNgBasics.DisableTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HubSpot Sanity test --&gt;
+&lt;/suite&gt; &lt;!-- My Test Automation HubSpot Sanity test  --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-My_Test_Automation_HubSpot_Sanity_test_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for My Test Automation HubSpot Sanity test </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HubSpot Sanity test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-My_Test_Automation_HubSpot_Sanity_test_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for My Test Automation HubSpot Sanity test </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-My_Test_Automation_HubSpot_Sanity_test_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for My Test Automation HubSpot Sanity test </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_My_Test_Automation_HubSpot_Sanity_test_');
+function tableData_My_Test_Automation_HubSpot_Sanity_test_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'productAvailTest')
+data.setCell(0, 2, 'testNgBasics.annotationEx')
+data.setCell(0, 3, 395);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkLinkDisplayedTest')
+data.setCell(1, 2, 'testNgBasics.annotationEx')
+data.setCell(1, 3, 119);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getTitleTest')
+data.setCell(2, 2, 'testNgBasics.annotationEx')
+data.setCell(2, 3, 18);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTest')
+data.setCell(3, 2, 'testNgBasics.DisableTest')
+data.setCell(3, 3, 2);
+window.suiteTableData['My_Test_Automation_HubSpot_Sanity_test_']= { tableData: data, tableDiv: 'times-div-My_Test_Automation_HubSpot_Sanity_test_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 534 ms</span>
+              <div id="times-div-My_Test_Automation_HubSpot_Sanity_test_">
+              </div> <!-- times-div-My_Test_Automation_HubSpot_Sanity_test_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-My_Test_Automation_HubSpot_Sanity_test_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for My Test Automation HubSpot Sanity test </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-My_Test_Automation_HubSpot_Sanity_test_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNgBasics.DisableTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">searchPageTest</span>
+                <br/>
+                <span class="ignored-method-name">homepageTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-My_Test_Automation_HubSpot_Sanity_test_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgBasics.annotationEx</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(https://www.freshworks.com/, firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">checkLinkDisplayedTest</span>
+                <span class="method-start">18487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productAvailTest</span>
+                <span class="method-start">18613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTitleTest</span>
+                <span class="method-start">19015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgBasics.DisableTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">19039 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgBasics.annotationEx</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">19044 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

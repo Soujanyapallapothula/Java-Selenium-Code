@@ -1,0 +1,19 @@
+############################
+## Java
+############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+############################
+## Maven 
+############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionBackup
+pom.xml.next
+pom.xml.bak

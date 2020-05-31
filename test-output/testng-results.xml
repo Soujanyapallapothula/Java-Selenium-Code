@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Test Automation HubSpot Sanity test " duration-ms="27990" started-at="2020-05-21T16:34:19 PDT" finished-at="2020-05-21T16:34:47 PDT">
+    <groups>
+    </groups>
+    <test name="HubSpot Sanity test" duration-ms="27990" started-at="2020-05-21T16:34:19 PDT" finished-at="2020-05-21T16:34:47 PDT">
+      <class name="testNgBasics.annotationEx">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNgBasics.annotationEx@2a17b7b6]" name="setUp" is-config="true" duration-ms="18380" started-at="2020-05-21T16:34:19 PDT" finished-at="2020-05-21T16:34:38 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.freshworks.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkLinkDisplayedTest()[pri:0, instance:testNgBasics.annotationEx@2a17b7b6]" name="checkLinkDisplayedTest" duration-ms="119" started-at="2020-05-21T16:34:38 PDT" finished-at="2020-05-21T16:34:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLinkDisplayedTest -->
+        <test-method status="PASS" signature="productAvailTest()[pri:0, instance:testNgBasics.annotationEx@2a17b7b6]" name="productAvailTest" duration-ms="395" started-at="2020-05-21T16:34:38 PDT" finished-at="2020-05-21T16:34:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAvailTest -->
+        <test-method status="PASS" signature="getTitleTest()[pri:1, instance:testNgBasics.annotationEx@2a17b7b6]" name="getTitleTest" duration-ms="18" started-at="2020-05-21T16:34:38 PDT" finished-at="2020-05-21T16:34:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNgBasics.annotationEx@2a17b7b6]" name="afterTest" is-config="true" duration-ms="8935" started-at="2020-05-21T16:34:38 PDT" finished-at="2020-05-21T16:34:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNgBasics.annotationEx -->
+      <class name="testNgBasics.DisableTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testNgBasics.DisableTest@4f063c0a]" name="loginTest" duration-ms="2" started-at="2020-05-21T16:34:38 PDT" finished-at="2020-05-21T16:34:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testNgBasics.DisableTest -->
+    </test> <!-- HubSpot Sanity test -->
+  </suite> <!-- My Test Automation HubSpot Sanity test  -->
+</testng-results>

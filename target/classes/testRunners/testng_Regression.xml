@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Test Automation HubSpot Regression test ">
+  <test thread-count="5" name="HubSpot Regression test">
+    <classes>
+      <class name="testNgBasics.DependsOnTestNg"/>
+      <class name="testNgBasics.annotationEx"/>
+      <class name="testNgBasics.ExceptioninTestNG"/>
+      <class name="testNgBasics.DisableTest"/>
+    </classes>
+  </test> 
+</suite> 
